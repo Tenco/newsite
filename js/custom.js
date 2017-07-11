@@ -1418,7 +1418,7 @@
                     anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5', 'anchor6'],
                     navigation: true,
                     navigationPosition: 'right',
-                    navigationTooltips: ['Intro', 'About us', 'Services', 'Our work', 'Clients', 'Contact'],
+                    navigationTooltips: ['Intro', 'About us', 'Services', 'Our work', 'News feed', 'Contact'],
                     scrollOverflow: true,
                     bigSectionsDestination: 'top',
 
