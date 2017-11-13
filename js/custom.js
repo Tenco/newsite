@@ -1415,10 +1415,10 @@
 
 
                 $('#fullpage').fullpage({
-                    anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5', 'anchor6'],
+                    anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'Our team', 'anchor6'],
                     navigation: true,
                     navigationPosition: 'right',
-                    navigationTooltips: ['Intro', 'About us', 'Services', 'Our work', 'News feed', 'Contact'],
+                    navigationTooltips: ['Intro', 'About us', 'Services', 'Our work', 'Our team', 'Contact'],
                     scrollOverflow: true,
                     bigSectionsDestination: 'top',
 
