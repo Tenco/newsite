@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/open-sans/open-sans-v15-latin-ext_latin-regular.woff2') format('woff2'),
+    url('../fonts/open-sans/open-sans-v15-latin-ext_latin-regular.woff') format('woff'),
+    url('../fonts/open-sans/open-sans-v15-latin-ext_latin-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/open-sans/open-sans-v15-latin-ext_latin-700.woff2') format('woff2'),
+    url('../fonts/open-sans/open-sans-v15-latin-ext_latin-700.woff') format('woff'),
+    url('../fonts/open-sans/open-sans-v15-latin-ext_latin-700.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Titillium';
+    src: url('../fonts/titillium/titillium-web-v6-latin-ext_latin-regular.woff2') format('woff2'),
+    url('../fonts/titillium/titillium-web-v6-latin-ext_latin-regular.woff') format('woff'),
+    url('../fonts/titillium/titillium-web-v6-latin-ext_latin-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Titillium';
+    src: url('../fonts/titillium/titillium-web-v6-latin-ext_latin-700.woff2') format('woff2'),
+    url('../fonts/titillium/titillium-web-v6-latin-ext_latin-700.woff') format('woff'),
+    url('../fonts/titillium/titillium-web-v6-latin-ext_latin-700.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.story-bg {
+    background-color: #0069b4;
+    background-image:
+            linear-gradient(
+                    to top right,
+                    #0069b4, #ec6607
+            );
+}
+
+.about-us {
+    background-image: url('../images/palatset/palatset.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.introduction {
+    background-color: white;
+}
+
+.team {
+    background-color: white;
+}
+
+.intro .intro-title {
+    color: white;
+    font-size: 50px;
+    line-height: 60px;
+    font-family: 'Titillium', sans-serif;
+    text-transform: none;
+    white-space: pre-line;
+}
+
+.intro {
+    text-align: center;
+    max-width: none;
+}
+
+.intro .small-title {
+    color: white;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: none;
+    margin: 2rem 0;
+    white-space: pre-line;
+}
+
+.intro .intro-more {
+    border-radius: 30px;
+    background-color: #ec6607;
+    border: none;
+    float: none;
+    text-transform: none;
+    transform: none;
+    text-indent: unset;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    margin: 10rem;
+    padding: 10px 50px;
+    font-weight: normal;
+}
+
+.intro-more:hover, .intro-more:active, .intro-more:focus {
+    background-color: #00b1b2;
+}
+
+.about-service-design {
+    font-size: 36px;
+    line-height: 60px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ec6607;
+    white-space: pre-line;
+}
+
+.about-us-section {
+    text-align: center;
+}
+
+.about-us-paragraph {
+    font-family: 'Open Sans', sans-serif;
+    white-space: pre-line;
+    margin: 2rem;
+    font-size: 28px;
+    line-height: 28px;
+    color: white;
+}
+
+.about-us-header, .case-studies-header {
+    color: white;
+    font-family: 'Titillium', sans-serif;
+}
+
+.tenco-logo {
+    position: absolute;
+    top: 38px;
+    left: 38px;
+    width: 150px;
+}
+
+.contact-information-link {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+.what-we-do-container {
+    padding-top: 192px;
+    padding-bottom: 384px;
+}
+
+.what-we-do-paragraph {
+    font-size: 26px;
+    line-height: 32px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.what-we-do-header {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.what-we-do-row {
+    padding: 96px 0;
+}
+
+.client-grayscale {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.your-face-here {
+    height: auto;
+    width: 99%;
+}
+
+.block-item img {
+    max-height: 400px;
+}
+
+.title-footer {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* BUGFIX for Case studies gallery on larger screens */
+.cbp img, .cbp-popup-singlePage img {
+    width: 100%;
+}

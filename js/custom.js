@@ -1415,10 +1415,10 @@
 
 
                 $('#fullpage').fullpage({
-                    anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'Our team', 'anchor6'],
+                    anchors: ['home', 'shortintro', 'casestudies', 'whatwedo', 'about', 'collaborators', 'trustedby', 'footer'],
                     navigation: true,
                     navigationPosition: 'right',
-                    navigationTooltips: ['Intro', 'About us', 'Services', 'Our work', 'Our team', 'Contact'],
+                    navigationTooltips: ['Home', 'Introduction','Case studies', 'What we do', 'About us', 'Tencollaborators', 'Trusted by', 'Contact'],
                     scrollOverflow: true,
                     bigSectionsDestination: 'top',
 
@@ -1457,7 +1457,6 @@
         standardLightBox();
         colorBg();
         counter();
-        storyBg();
         backToTop();
         animationLoader();
         porgressBar();
@@ -1477,14 +1476,12 @@
         jQuery(".grid-container").on('updateSinglePageStart.cbp', function() {
             standardLightBox();
             masterSliderAjax();
-            storyBg();
 
         });
 
         jQuery("#js-grid-mosaic").on('updateSinglePageStart.cbp', function() {
             standardLightBox();
             masterSliderAjax();
-            storyBg();
 
         });
 
