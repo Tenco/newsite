@@ -140,8 +140,8 @@
 }
 
 .what-we-do-container {
-    padding-top: 192px;
-    padding-bottom: 384px;
+    padding: 192px 0;
+    background-color: rgba(0, 167, 213, 0.05);
 }
 
 .what-we-do-paragraph {
@@ -155,7 +155,17 @@
 }
 
 .what-we-do-row {
-    padding: 96px 0;
+    padding: 96px 96px;
+}
+
+
+.what-we-do-row img {
+   max-width: 100%;
+   max-height: 400px;
+}
+
+.what-we-do-row:nth-child(odd) {
+    background-color: rgba(60, 60, 59, 0.05);
 }
 
 .client-grayscale {
