@@ -1457,6 +1457,7 @@
         standardLightBox();
         colorBg();
         counter();
+        storyBg();
         backToTop();
         animationLoader();
         porgressBar();
@@ -1476,13 +1477,14 @@
         jQuery(".grid-container").on('updateSinglePageStart.cbp', function() {
             standardLightBox();
             masterSliderAjax();
+            storyBg();
 
         });
 
         jQuery("#js-grid-mosaic").on('updateSinglePageStart.cbp', function() {
             standardLightBox();
             masterSliderAjax();
-
+            storyBg();
         });
 
 

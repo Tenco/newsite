@@ -34,13 +34,8 @@
     font-style: normal;
 }
 
-.story-bg {
-    background-color: #0069b4;
-    background-image:
-            linear-gradient(
-                    to top right,
-                    #0069b4, #ec6607
-            );
+#hero {
+    background-image: linear-gradient(to top right, #0069b4, #ec6607);
 }
 
 .about-us {
