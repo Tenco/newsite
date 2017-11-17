@@ -86,7 +86,6 @@
     text-indent: unset;
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
-    margin: 10rem;
     padding: 10px 50px;
     font-weight: normal;
 }
@@ -179,6 +178,10 @@
 
 .title-footer {
     font-family: 'Open Sans', sans-serif;
+}
+
+blockquote {
+    border-color: #00b1b2;
 }
 
 /* BUGFIX for Case studies gallery on larger screens */
