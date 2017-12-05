@@ -102,6 +102,11 @@
     white-space: pre-line;
 }
 
+.about-service-design-details {
+    font-size: 30px;
+    line-height: 36px;
+}
+
 .about-us-section {
     text-align: center;
 }
